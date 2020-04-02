@@ -1,0 +1,41 @@
+{
+    "name": "mekramy/php-util",
+    "description": "utility functions for php",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "utility",
+        "helpers",
+        "persian date",
+        "gregorian date"
+    ],
+    "authors": [
+        {
+            "email": "m.ajamekramy@gmail.com",
+            "homepage": "http://ekramy.ir",
+            "name": "M Ekramy",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "ext-json": "*",
+        "nesbot/carbon": ">=2.30",
+        "hekmatinasser/verta": ">=1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "MEkramy\\PHPUtil\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
